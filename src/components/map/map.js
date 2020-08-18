@@ -67,7 +67,7 @@ export default function Map({showBorder = false, onTilesLoad = null}) {
       views={new MapView({repeat: true})}
       initialViewState={INITIAL_VIEW_STATE}
       controller={true}
-      getTooltip={getTooltip}
+      //getTooltip={getTooltip}
     />
   );
 }
